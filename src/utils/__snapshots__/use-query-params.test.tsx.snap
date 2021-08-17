@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useQueryParams hook params are retrieved correctly: no params 1`] = `Object {}`;
+
+exports[`useQueryParams hook params are retrieved correctly: no params 2`] = `
+Object {
+  "foo": "bar",
+}
+`;

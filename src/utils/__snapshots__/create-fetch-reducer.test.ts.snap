@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return correct state after dispatch 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "loading": true,
+}
+`;
+
+exports[`should return correct state after dispatch 2`] = `
+Object {
+  "data": Array [
+    Object {
+      "id": "1",
+    },
+    Object {
+      "id": "2",
+    },
+    Object {
+      "id": "3",
+    },
+  ],
+  "error": null,
+  "loading": false,
+}
+`;
+
+exports[`should return correct state after dispatch 3`] = `
+Object {
+  "data": Array [
+    Object {
+      "id": "1",
+    },
+    Object {
+      "id": "2",
+    },
+    Object {
+      "id": "3",
+    },
+  ],
+  "error": "oh no!",
+  "loading": false,
+}
+`;
+
+exports[`should return correct state after dispatch 4`] = `
+Object {
+  "data": Array [
+    Object {
+      "id": "1",
+    },
+    Object {
+      "id": "2",
+    },
+    Object {
+      "id": "3",
+    },
+  ],
+  "error": null,
+  "loading": true,
+}
+`;
